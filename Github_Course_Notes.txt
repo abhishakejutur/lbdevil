@@ -1,0 +1,296 @@
+abhis@singlestarabhi MINGW64 ~
+$ ssh-keygen -t rsa -C abhishake62232@gmail.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/abhis/.ssh/id_rsa):
+Created directory '/c/Users/abhis/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/abhis/.ssh/id_rsa
+Your public key has been saved in /c/Users/abhis/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:eJPoED4NTihT9KGIMIBOAh4ijt9dF0UKYw832LFhyuc abhishake62232@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|@oo .   =oB+o    |
+|@=.+ . o.O.*     |
+|Xoo =   + *      |
+| = = = + =       |
+|  . * = S E      |
+|     + . .       |
+|      .          |
+|                 |
+|                 |
++----[SHA256]-----+
+
+abhis@singlestarabhi MINGW64 ~
+$ git config --global user.name "abhishakejutur"
+
+abhis@singlestarabhi MINGW64 ~
+$ git config --global user.email "abhishake62232@gmail.com"
+
+abhis@singlestarabhi MINGW64 ~
+$ d:
+bash: d:: command not found
+
+abhis@singlestarabhi MINGW64 ~
+$ /d/
+bash: /d/: Is a directory
+
+abhis@singlestarabhi MINGW64 ~
+$ /d/gits
+bash: /d/gits: Is a directory
+
+abhis@singlestarabhi MINGW64 ~
+$ /d/gits/
+bash: /d/gits/: Is a directory
+
+abhis@singlestarabhi MINGW64 ~
+$ /d/gits/temp
+bash: /d/gits/temp: No such file or directory
+
+abhis@singlestarabhi MINGW64 ~
+$ /d/gits/
+bash: /d/gits/: Is a directory
+
+abhis@singlestarabhi MINGW64 ~
+$ /c/data/temp
+bash: /c/data/temp: No such file or directory
+
+abhis@singlestarabhi MINGW64 ~
+$ /d/gits/
+bash: /d/gits/: Is a directory
+
+abhis@singlestarabhi MINGW64 ~
+$ cd /d/gits/
+
+abhis@singlestarabhi MINGW64 /d/gits
+$ git clone git@github.com:abhishakejutur/lbdevil.git
+Cloning into 'lbdevil'...
+The authenticity of host 'github.com (64:ff9b::14cf:4952)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enter passphrase for key '/c/Users/abhis/.ssh/id_rsa':
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), 12.81 KiB | 12.81 MiB/s, done.
+
+abhis@singlestarabhi MINGW64 /d/gits
+$ git gui&
+[1] 1929
+
+abhis@singlestarabhi MINGW64 /d/gits
+$ git commit -m "Add one line in README file"
+fatal: not a git repository (or any of the parent directories): .git
+
+abhis@singlestarabhi MINGW64 /d/gits
+$ git commit
+fatal: not a git repository (or any of the parent directories): .git
+
+abhis@singlestarabhi MINGW64 /d/gits
+$ cd lbdevil
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git gui&
+[2] 1951
+[1]   Done                    git gui  (wd: /d/gits)
+(wd now: /d/gits/lbdevil)
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git add discription.txt
+fatal: pathspec 'discription.txt' did not match any files
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git log
+commit 6bd89d142449a5c349bc3451af2c2628c3da3bb8 (HEAD -> main, origin/main, origin/Projects, origin/HEAD)
+Author: Abhishake Jutur <91953148+lbdevil420@users.noreply.github.com>
+Date:   Thu Nov 10 23:43:02 2022 +0530
+
+    Update README.md
+
+commit 056f42bfd10ec79ad8869cdd109d277cdb40b5bf
+Author: Abhishake <91953148+lbdevil420@users.noreply.github.com>
+Date:   Mon Oct 3 18:30:12 2022 +0530
+
+    LinkedIn_ml_quiz
+
+    LinkedIn- Machine Learning Quiz Questions and Answers
+
+commit 8f7179ef1c93019418d0cd46f0caaa5594866d15
+Author: lbdevil420 <91953148+lbdevil420@users.noreply.github.com>
+Date:   Tue Oct 5 16:35:23 2021 +0530
+
+    Initial commit
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git remote -v
+origin  git@github.com:abhishakejutur/lbdevil.git (fetch)
+origin  git@github.com:abhishakejutur/lbdevil.git (push)
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git add discription.txt
+fatal: pathspec 'discription.txt' did not match any files
+[2]+  Done                    git gui
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git add discription.md
+fatal: pathspec 'discription.md' did not match any files
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git add README.md
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git commit -m "msg updated"
+[main bcd7152] msg updated
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git push
+Enter passphrase for key '/c/Users/abhis/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 269 bytes | 269.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:abhishakejutur/lbdevil.git
+   6bd89d1..bcd7152  main -> main
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git gui&
+[1] 2010
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git gui&
+[2] 2016
+[1]   Done                    git gui
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git gitk&
+[3] 2027
+git: 'gitk' is not a git command. See 'git --help'.
+
+The most similar command is
+        gui.tcl
+[3]+  Exit 1                  git gitk
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ gitk&
+[3] 2032
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$
+
+abhis@singlestarabhi MINGW64 ~
+$ git log
+fatal: not a git repository (or any of the parent directories): .git
+
+abhis@singlestarabhi MINGW64 ~
+$ cd /d/gits/lbdevil
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git log
+commit b197b4a986ece171d5d89f6dbab5bdc538e72ecb (HEAD -> main, origin/main, origin/HEAD)
+Author: abhishakejutur <abhishake62232@gmail.com>
+Date:   Thu May 16 01:16:30 2024 +0530
+
+    one text file created...
+
+commit bcd71525a32a27663d326ecb21e1b4e4e2670534
+Author: abhishakejutur <abhishake62232@gmail.com>
+Date:   Thu May 16 01:10:06 2024 +0530
+
+    msg updated
+
+commit 6bd89d142449a5c349bc3451af2c2628c3da3bb8 (origin/Projects)
+Author: Abhishake Jutur <91953148+lbdevil420@users.noreply.github.com>
+Date:   Thu Nov 10 23:43:02 2022 +0530
+
+    Update README.md
+
+commit 056f42bfd10ec79ad8869cdd109d277cdb40b5bf
+Author: Abhishake <91953148+lbdevil420@users.noreply.github.com>
+Date:   Mon Oct 3 18:30:12 2022 +0530
+
+    LinkedIn_ml_quiz
+
+    LinkedIn- Machine Learning Quiz Questions and Answers
+
+commit 8f7179ef1c93019418d0cd46f0caaa5594866d15
+Author: lbdevil420 <91953148+lbdevil420@users.noreply.github.com>
+Date:   Tue Oct 5 16:35:23 2021 +0530
+
+    Initial commit
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git show -s pretty=raw ^[[200~
+fatal: ambiguous argument 'pretty=raw': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git show -s pretty=raw b197b4a
+fatal: ambiguous argument 'pretty=raw': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git show -s --pretty=raw b197b4a
+commit b197b4a986ece171d5d89f6dbab5bdc538e72ecb
+tree 8d163b3a8007c76ccb0e8edf69aacbfce49b9e1a
+parent bcd71525a32a27663d326ecb21e1b4e4e2670534
+author abhishakejutur <abhishake62232@gmail.com> 1715802390 +0530
+committer abhishakejutur <abhishake62232@gmail.com> 1715802390 +0530
+
+    one text file created...
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+        lfs
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ ls
+README.md  text_file.txt
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git ls-^Cee
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git ls-tree 8d163b3
+100644 blob cfc139319f1f87429f02d68a4a5a4fcef0fde07c    README.md
+100644 blob b6be7b8bab8dcfd5d9e8c76e2255ff2b56e8e675    text_file.txt
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git show ^C
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$ git show cfc13931
+HI LB CODERS
+THIS IS ABHI
+
+abhis@singlestarabhi MINGW64 /d/gits/lbdevil (main)
+$
